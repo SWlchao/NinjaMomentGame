@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049234252A77576C0003C318 /* NinjaMomentExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049234222A77576C0003C318 /* NinjaMomentExt.swift */; };
+		049234262A77576C0003C318 /* GameScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049234232A77576C0003C318 /* GameScoreModel.swift */; };
+		049234272A77576C0003C318 /* NinjaMomentNM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049234242A77576C0003C318 /* NinjaMomentNM.swift */; };
+		04AF62F22A73A3AF009EFC75 /* NinjaTimerend.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AF62F12A73A3AF009EFC75 /* NinjaTimerend.storyboard */; };
+		04AF62F42A73A676009EFC75 /* NinjaEndpopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF62F32A73A676009EFC75 /* NinjaEndpopController.swift */; };
+		04AF62F62A73A70C009EFC75 /* NinjaGameSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AF62F52A73A70C009EFC75 /* NinjaGameSet.storyboard */; };
+		04AF62F82A73AAE1009EFC75 /* NinjaGameSetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF62F72A73AAE1009EFC75 /* NinjaGameSetController.swift */; };
+		04AF62FA2A73AB6B009EFC75 /* NinjaGameScore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AF62F92A73AB6B009EFC75 /* NinjaGameScore.storyboard */; };
+		04AF62FC2A73ABE6009EFC75 /* NinjaGameScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF62FB2A73ABE6009EFC75 /* NinjaGameScoreController.swift */; };
+		04AF62FF2A73AC3E009EFC75 /* NinjaGameScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF62FD2A73AC3E009EFC75 /* NinjaGameScoreCell.swift */; };
+		04AF63002A73AC3E009EFC75 /* NinjaGameScoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AF62FE2A73AC3E009EFC75 /* NinjaGameScoreCell.xib */; };
+		04CDBD1B2A72733E00ED6985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDBD1A2A72733E00ED6985 /* AppDelegate.swift */; };
+		04CDBD1D2A72733E00ED6985 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDBD1C2A72733E00ED6985 /* SceneDelegate.swift */; };
+		04CDBD1F2A72733E00ED6985 /* NinjaMomentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDBD1E2A72733E00ED6985 /* NinjaMomentController.swift */; };
+		04CDBD222A72733E00ED6985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CDBD202A72733E00ED6985 /* Main.storyboard */; };
+		04CDBD242A72734200ED6985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CDBD232A72734200ED6985 /* Assets.xcassets */; };
+		04CDBD272A72734200ED6985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CDBD252A72734200ED6985 /* LaunchScreen.storyboard */; };
+		04CDBD2F2A72737700ED6985 /* NinjaMoment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CDBD2E2A72737700ED6985 /* NinjaMoment.storyboard */; };
+		D339B4AC590F680079CB4F05 /* Pods_NinjaMoment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE1BC0826E007485B0E1337 /* Pods_NinjaMoment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049234212A77576C0003C318 /* NmOCodeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NmOCodeHeader.h; sourceTree = "<group>"; };
+		049234222A77576C0003C318 /* NinjaMomentExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaMomentExt.swift; sourceTree = "<group>"; };
+		049234232A77576C0003C318 /* GameScoreModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScoreModel.swift; sourceTree = "<group>"; };
+		049234242A77576C0003C318 /* NinjaMomentNM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaMomentNM.swift; sourceTree = "<group>"; };
+		04AF62F12A73A3AF009EFC75 /* NinjaTimerend.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NinjaTimerend.storyboard; sourceTree = "<group>"; };
+		04AF62F32A73A676009EFC75 /* NinjaEndpopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaEndpopController.swift; sourceTree = "<group>"; };
+		04AF62F52A73A70C009EFC75 /* NinjaGameSet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NinjaGameSet.storyboard; sourceTree = "<group>"; };
+		04AF62F72A73AAE1009EFC75 /* NinjaGameSetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaGameSetController.swift; sourceTree = "<group>"; };
+		04AF62F92A73AB6B009EFC75 /* NinjaGameScore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NinjaGameScore.storyboard; sourceTree = "<group>"; };
+		04AF62FB2A73ABE6009EFC75 /* NinjaGameScoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaGameScoreController.swift; sourceTree = "<group>"; };
+		04AF62FD2A73AC3E009EFC75 /* NinjaGameScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaGameScoreCell.swift; sourceTree = "<group>"; };
+		04AF62FE2A73AC3E009EFC75 /* NinjaGameScoreCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NinjaGameScoreCell.xib; sourceTree = "<group>"; };
+		04CDBD172A72733E00ED6985 /* NinjaMoment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaMoment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CDBD1A2A72733E00ED6985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04CDBD1C2A72733E00ED6985 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04CDBD1E2A72733E00ED6985 /* NinjaMomentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaMomentController.swift; sourceTree = "<group>"; };
+		04CDBD212A72733E00ED6985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CDBD232A72734200ED6985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CDBD262A72734200ED6985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CDBD282A72734200ED6985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CDBD2E2A72737700ED6985 /* NinjaMoment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NinjaMoment.storyboard; sourceTree = "<group>"; };
+		0AD46ED3DE436CE2146D99A6 /* Pods-NinjaMoment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaMoment.release.xcconfig"; path = "Target Support Files/Pods-NinjaMoment/Pods-NinjaMoment.release.xcconfig"; sourceTree = "<group>"; };
+		7CE1BC0826E007485B0E1337 /* Pods_NinjaMoment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NinjaMoment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D541080EB44B38FC1B232AFE /* Pods-NinjaMoment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaMoment.debug.xcconfig"; path = "Target Support Files/Pods-NinjaMoment/Pods-NinjaMoment.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CDBD142A72733E00ED6985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D339B4AC590F680079CB4F05 /* Pods_NinjaMoment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CDBD0E2A72733E00ED6985 = {
+			isa = PBXGroup;
+			children = (
+				04CDBD192A72733E00ED6985 /* NinjaMoment */,
+				04CDBD182A72733E00ED6985 /* Products */,
+				1A656999F57214C55EC62685 /* Pods */,
+				EC7070E5AC7DC289E5B87332 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04CDBD182A72733E00ED6985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CDBD172A72733E00ED6985 /* NinjaMoment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CDBD192A72733E00ED6985 /* NinjaMoment */ = {
+			isa = PBXGroup;
+			children = (
+				04CDBD1A2A72733E00ED6985 /* AppDelegate.swift */,
+				04CDBD1C2A72733E00ED6985 /* SceneDelegate.swift */,
+				04CDBD2E2A72737700ED6985 /* NinjaMoment.storyboard */,
+				04CDBD1E2A72733E00ED6985 /* NinjaMomentController.swift */,
+				04AF62F12A73A3AF009EFC75 /* NinjaTimerend.storyboard */,
+				04AF62F32A73A676009EFC75 /* NinjaEndpopController.swift */,
+				04AF62F52A73A70C009EFC75 /* NinjaGameSet.storyboard */,
+				04AF62F72A73AAE1009EFC75 /* NinjaGameSetController.swift */,
+				04AF62F92A73AB6B009EFC75 /* NinjaGameScore.storyboard */,
+				04AF62FB2A73ABE6009EFC75 /* NinjaGameScoreController.swift */,
+				04AF62FE2A73AC3E009EFC75 /* NinjaGameScoreCell.xib */,
+				04AF62FD2A73AC3E009EFC75 /* NinjaGameScoreCell.swift */,
+				049234222A77576C0003C318 /* NinjaMomentExt.swift */,
+				049234232A77576C0003C318 /* GameScoreModel.swift */,
+				049234242A77576C0003C318 /* NinjaMomentNM.swift */,
+				049234212A77576C0003C318 /* NmOCodeHeader.h */,
+				04CDBD202A72733E00ED6985 /* Main.storyboard */,
+				04CDBD232A72734200ED6985 /* Assets.xcassets */,
+				04CDBD252A72734200ED6985 /* LaunchScreen.storyboard */,
+				04CDBD282A72734200ED6985 /* Info.plist */,
+			);
+			path = NinjaMoment;
+			sourceTree = "<group>";
+		};
+		1A656999F57214C55EC62685 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D541080EB44B38FC1B232AFE /* Pods-NinjaMoment.debug.xcconfig */,
+				0AD46ED3DE436CE2146D99A6 /* Pods-NinjaMoment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC7070E5AC7DC289E5B87332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CE1BC0826E007485B0E1337 /* Pods_NinjaMoment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CDBD162A72733E00ED6985 /* NinjaMoment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CDBD2B2A72734200ED6985 /* Build configuration list for PBXNativeTarget "NinjaMoment" */;
+			buildPhases = (
+				F6B9712D2923311C028604B9 /* [CP] Check Pods Manifest.lock */,
+				04CDBD132A72733E00ED6985 /* Sources */,
+				04CDBD142A72733E00ED6985 /* Frameworks */,
+				04CDBD152A72733E00ED6985 /* Resources */,
+				78F19518B0B24808D57BD206 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NinjaMoment;
+			productName = NinjaMoment;
+			productReference = 04CDBD172A72733E00ED6985 /* NinjaMoment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CDBD0F2A72733E00ED6985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					04CDBD162A72733E00ED6985 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 04CDBD122A72733E00ED6985 /* Build configuration list for PBXProject "NinjaMoment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				"zh-Hans",
+			);
+			mainGroup = 04CDBD0E2A72733E00ED6985;
+			productRefGroup = 04CDBD182A72733E00ED6985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CDBD162A72733E00ED6985 /* NinjaMoment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CDBD152A72733E00ED6985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF62F62A73A70C009EFC75 /* NinjaGameSet.storyboard in Resources */,
+				04CDBD272A72734200ED6985 /* LaunchScreen.storyboard in Resources */,
+				04AF62F22A73A3AF009EFC75 /* NinjaTimerend.storyboard in Resources */,
+				04AF62FA2A73AB6B009EFC75 /* NinjaGameScore.storyboard in Resources */,
+				04CDBD2F2A72737700ED6985 /* NinjaMoment.storyboard in Resources */,
+				04AF63002A73AC3E009EFC75 /* NinjaGameScoreCell.xib in Resources */,
+				04CDBD242A72734200ED6985 /* Assets.xcassets in Resources */,
+				04CDBD222A72733E00ED6985 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78F19518B0B24808D57BD206 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NinjaMoment/Pods-NinjaMoment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NinjaMoment/Pods-NinjaMoment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NinjaMoment/Pods-NinjaMoment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B9712D2923311C028604B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NinjaMoment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CDBD132A72733E00ED6985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AF62FF2A73AC3E009EFC75 /* NinjaGameScoreCell.swift in Sources */,
+				049234252A77576C0003C318 /* NinjaMomentExt.swift in Sources */,
+				04CDBD1F2A72733E00ED6985 /* NinjaMomentController.swift in Sources */,
+				049234262A77576C0003C318 /* GameScoreModel.swift in Sources */,
+				049234272A77576C0003C318 /* NinjaMomentNM.swift in Sources */,
+				04AF62FC2A73ABE6009EFC75 /* NinjaGameScoreController.swift in Sources */,
+				04CDBD1B2A72733E00ED6985 /* AppDelegate.swift in Sources */,
+				04AF62F42A73A676009EFC75 /* NinjaEndpopController.swift in Sources */,
+				04AF62F82A73AAE1009EFC75 /* NinjaGameSetController.swift in Sources */,
+				04CDBD1D2A72733E00ED6985 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04CDBD202A72733E00ED6985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CDBD212A72733E00ED6985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04CDBD252A72734200ED6985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CDBD262A72734200ED6985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CDBD292A72734200ED6985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04CDBD2A2A72734200ED6985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CDBD2C2A72734200ED6985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D541080EB44B38FC1B232AFE /* Pods-NinjaMoment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 83V4464W7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NinjaMoment/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ninja Moment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ninja.moment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ninjamoment;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/NinjaMoment/NmOCodeHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04CDBD2D2A72734200ED6985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD46ED3DE436CE2146D99A6 /* Pods-NinjaMoment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 83V4464W7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NinjaMoment/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ninja Moment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ninja.moment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ninjamoment;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/NinjaMoment/NmOCodeHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CDBD122A72733E00ED6985 /* Build configuration list for PBXProject "NinjaMoment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CDBD292A72734200ED6985 /* Debug */,
+				04CDBD2A2A72734200ED6985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CDBD2B2A72734200ED6985 /* Build configuration list for PBXNativeTarget "NinjaMoment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CDBD2C2A72734200ED6985 /* Debug */,
+				04CDBD2D2A72734200ED6985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CDBD0F2A72733E00ED6985 /* Project object */;
+}
